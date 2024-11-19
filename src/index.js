@@ -8,7 +8,7 @@ londonTimeElement.innerHTML = londonTime.format("h:mm:ss [<small>]A[</small]");
 
 let newYorkElement = document.querySelector("#new-york");
 let newYorkDateElement = newYorkElement.querySelector(".date");
-let newYorTimeElement = newYorkElement.querySelector(".time");
+let newYorkTimeElement = newYorkElement.querySelector(".time");
 let newYorkTime = moment().tz("America/New_York");
 
 newYorkDateElement.innerHTML = newYorkTime.format("dddd Do MMMM YYYY");
@@ -22,4 +22,4 @@ let tokyoTimeElement = tokyoElement.querySelector(".time");
 let tokyoTime = moment().tz("Asia/Tokyo");
 
 tokyoDateElement.innerHTML = tokyoTime.format("dddd Do MMMM YYYY");
-tokyoElement.innerHTML = tokyoTime.format("h:mm:ss [<small>]A[</small]");
+tokyoTimeElement.innerHTML = tokyoTime.format("h:mm:ss [<small>]A[</small]");
