@@ -1,5 +1,5 @@
 body {
-  background-color: #6dc99e9e;
+  background: #83a2ffda;
   font-family: "Sarabun", serif;
 }
 
@@ -15,19 +15,22 @@ h2 {
 
 select {
   display: block;
-  width: 100%;
+  margin: 0 auto;
+  width: 50%;
   padding: 10px;
   border-radius: 4px;
   font-size: 18px;
+  border: 2px solid rgba(0, 0, 0, 0.736);
+  background: rgba(255, 255, 255, 0.61);
 }
-
 .container {
   max-width: 600px;
   margin: 30px auto;
-  background: white;
-  border-radius: 15px;
+  background: #6dc99e9e;
+  border-radius: 50px;
   padding: 30px;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 5px solid rgba(0, 0, 0, 0.736);
 }
 
 .city {
@@ -41,6 +44,11 @@ select {
 .city:last-child {
   border: none;
 }
+
+.city:last-of-type {
+  border: none;
+}
+
 .time {
   font-size: 48px;
   font-weight: bold;
